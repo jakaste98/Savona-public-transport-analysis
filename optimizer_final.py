@@ -230,7 +230,7 @@ if __name__ == "__main__":
     # Identify high and low degree nodes for route optimization
     high_degree_nodes, low_degree_nodes = identify_optimization_nodes(G)
     
-    # Merge routes '31' and '33'
+    # Merge routes '31' and '33' (two main bus routes that i used to use when i was a kid) 
     merge_routes(G, geo_df, '31', '33', 'MergedRoute_31_33')
     
     # Visualization of network graph with color-coded routes
