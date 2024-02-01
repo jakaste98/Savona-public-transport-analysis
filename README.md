@@ -28,7 +28,7 @@ To set up this project locally, follow these steps:
   
 Clone this repository.  
 Install the required Python packages: pip install -r requirements.txt.  
-Run the urban_mobility_analysis.py script to reproduce the analysis.  
+Run the optimizer_fina.py script to reproduce the main analysis.  
 ## Methodologies and Tools  
 
 **Data Preprocessing**: Pandas for data cleaning and manipulation performed initially using ORARI_MERGED as data file and public_transport.py for the code. Then, by using the outcome of the aforementioned code (all_routes) in combination with coord_retriever for code part, the coordinates are retrieved to then move to optimizer_final.py (code) and all_routes_with_coords (data file - outcome of all_routes.csv) 
