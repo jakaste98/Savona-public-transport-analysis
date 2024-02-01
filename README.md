@@ -31,7 +31,8 @@ Install the required Python packages: pip install -r requirements.txt.
 Run the urban_mobility_analysis.py script to reproduce the analysis.  
 ## Methodologies and Tools  
 
-**Data Preprocessing**: Pandas for data cleaning and manipulation performed initially using ORARI_MERGED as data file and public_transport.py for the code. Then, by using the outcome of the aforementioned code (all_routes) in combination with coord_retriever for code part, the coordinates are retrieved to then move to optimizer_final.py (code) and all_routes_with_coords (data file - outcome of all_routes.csv)
+**Data Preprocessing**: Pandas for data cleaning and manipulation performed initially using ORARI_MERGED as data file and public_transport.py for the code. Then, by using the outcome of the aforementioned code (all_routes) in combination with coord_retriever for code part, the coordinates are retrieved to then move to optimizer_final.py (code) and all_routes_with_coords (data file - outcome of all_routes.csv) 
+ 
 **Geospatial Analysis**: Geopandas and Folium for mapping bus stops.  
 **Network Analysis**: NetworkX for constructing and analyzing the bus route network, and Matplotlib for visualization.  
 **Simulation of Adjustments**: Hypothetical scenarios of route optimizations.
